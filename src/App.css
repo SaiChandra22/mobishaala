@@ -1,0 +1,249 @@
+.header-container {
+  background-image: url("https://res.cloudinary.com/saichandra/image/upload/v1710448904/pngtree-doodles-on-green-chalkboard-background-back-to-school-background-picture-image_1207855_1_thsnom.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.banner-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content-container {
+  width: 31%;
+  margin-right: 85px;
+}
+
+.title {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 76px;
+  font-weight: bold;
+  text-shadow: 0px 2px, 2px 0px, 2px 2px;
+  font-style: italic;
+  margin: 0px;
+}
+
+.description {
+  font-family: "Roboto";
+  color: #ffffff;
+  line-height: 1.7;
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.highlight-text {
+  color: #f5c542;
+}
+
+.list-container {
+  list-style-image: url("https://res.cloudinary.com/saichandra/image/upload/c_crop,w_16,h_20/v1710487741/unnamed_3_mjsgi8.png");
+  padding-left: 22px;
+  margin-top: 45px;
+}
+
+.list-item {
+  font-family: "Roboto";
+  color: #ffffff;
+  line-height: 1.7;
+  font-size: 19px;
+  margin-bottom: 2px;
+  padding-left: 14px;
+}
+
+.video-placeholder-mobile {
+  display: none;
+}
+
+.label {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+.cta-button {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 23px;
+  background-color: #c91637;
+  border: none;
+  border-radius: 7px;
+  padding: 14px 20px;
+}
+
+.talk-to-us-button {
+  background-color: #12ad2b;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  padding: 15px 18px;
+}
+
+.talk-to-us-text {
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.video-placeholder-desktop {
+  width: 38%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yt-video {
+  height: 378px;
+  width: 670px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+
+.footer-container {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .header-container {
+    height: auto;
+    padding: 25px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: normal;
+  }
+
+  .banner-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-container {
+    width: 100%;
+    margin-right: auto;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .description {
+    font-family: "Roboto";
+    color: #ffffff;
+    line-height: 1.7;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 0px;
+  }
+
+  .highlight-text {
+    color: #f5c542;
+  }
+
+  .list-container {
+    display: none;
+  }
+
+  .video-placeholder-mobile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .yt-video {
+    height: 212px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    margin-top: 20px;
+  }
+
+  .cta-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .label {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .cta-button {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 23px;
+    background-color: #c91637;
+    border: none;
+    border-radius: 7px;
+    padding: 14px 20px;
+  }
+
+  .talk-to-us-button {
+    background-color: #12ad2b;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    padding: 15px 18px;
+  }
+
+  .talk-to-us-text {
+    font-size: 22px;
+    margin-left: 10px;
+  }
+
+  .video-placeholder-desktop {
+    display: none;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #c91637;
+    padding: 28px 18px;
+  }
+
+  .footer-heading {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+    font-style: italic;
+    margin: 0px;
+  }
+
+  .footer-sub-heading {
+    font-family: "Roboto";
+    color: #ffffff;
+    line-height: 1.7;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+
+  .footer-content {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 19px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .office-text {
+    font-weight: bold;
+  }
+}
